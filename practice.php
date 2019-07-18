@@ -15,4 +15,8 @@ $drink = [
     "juice" => 120,
     "Beer" => 200
     ];
+    foreach($drink as $drink => $val){
+        echo "{$drink}は{$val}円です。";
+    }
+    var_dump($drink);
 ?>
