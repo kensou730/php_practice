@@ -9,4 +9,10 @@ for($i=1;$i<=12;$i++){
     // echo $array[$i];
 }
 echo "今月は{$array[7]}月です。";
+
+$drink = [
+    "coffee" => 100,
+    "juice" => 120,
+    "Beer" => 200
+    ];
 ?>
